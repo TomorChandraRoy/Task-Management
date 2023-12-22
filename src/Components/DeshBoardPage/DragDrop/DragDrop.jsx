@@ -103,7 +103,7 @@ import './Style.css'
       <div className="container">
         {renderTaskColumn(stateTasks.filter((data) => data.status === "New Order"), "New Order")}
         {renderTaskColumn(stateTasks.filter((data) => data.status === "In Progress"), "In Progress")}
-        {renderTaskColumn(stateTasks.filter((data) => data.status === "Delivered"), "Waiting for buyer")}
+        {/* {renderTaskColumn(stateTasks.filter((data) => data.status === "Delivered"), "Waiting for buyer")} */}
         {renderTaskColumn(stateTasks.filter((data) => data.status === "Completed"), "Completed")}
       </div>
     );

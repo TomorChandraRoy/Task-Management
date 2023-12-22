@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 15px;
-    background: #fff;
-    box-shadow: 3px 1px 12px #0000001a;
+    background: #c9aeae;
+    box-shadow: 3px 1px 12px #c90f0f1a;
     border-radius: 4px;
     margin-bottom: 15px;
     cursor: move;
@@ -30,19 +30,19 @@
     align-items: flex-end;
   }
   .order .status {
-    background: #fff1de;
-    color: #494949;
+    background: #e4dcd0;
+    color: #be3f3f;
     padding: 3px 10px;
     border-radius: 18px;
   }
   .done .status {
-    background: #c8ebdd;
-    color: #494949;
+    background: #82c9ad;
+    color: #c22727;
     padding: 3px 10px;
     border-radius: 18px;
   }
   .pending .status {
-    background: #cfd8f0;
+    background: #3e5fb9;
     color: #494949;
     padding: 3px 10px;
     border-radius: 18px;
