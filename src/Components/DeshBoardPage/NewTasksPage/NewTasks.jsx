@@ -24,7 +24,7 @@ const CreateTask = () => {
         }
         console.log(taskData)
 
-        fetch('http://localhost:5000/addTasks', {
+        fetch('https://task-management-server-site-amber.vercel.app/addTasks', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -113,69 +113,3 @@ export default CreateTask;
 
 
 
-// const NewTasks = () => {
-//     const { register, handleSubmit } = useForm()
-//     const onSubmit = (data) => {
-//         console.log(data)
-//     };
-
-//     return (
-//         <div className=" font-poppins">
-//             <h2 className="text-center font-bold text-4xl mb-4">Create a tasks</h2>
-//             <div>
-//                 <form onSubmit={handleSubmit(onSubmit)} className="bg-gradient-to-r from-green-400 to-blue-300 ...  shadow-cyan-500/50 shadow-2xl p-7">
-
-//                     <div className="flex gap-4">
-//                         <div className="Form-control w-full my-2">
-//                             <label className="form-control w-full">
-//                                 <div className="label">
-//                                     <span className="label-text">Tasks name*</span>
-//                                 </div>
-//                                 <input {...register("name", { required: true})} type="text" placeholder="Title" className="input input-bordered w-full " />
-
-//                             </label>
-//                         </div>
-
-//                         <div className="Form-control w-full my-2">
-//                             <label className="form-control w-full">
-//                                 <div className="label">
-//                                     <span className="label-text">Description*</span>
-//                                 </div>
-//                                 <textarea {...register("description",{ required: true})} type="text" placeholder="Title" className="input input-bordered w-full " />
-
-//                             </label>
-//                         </div>
-//                     </div>
-
-//                     <div className="flex gap-5">
-//                         <div className="Form-control w-full my-2">
-//                             <label className="label">
-//                             <span className="label-text">Priority*</span>
-//                             </label>
-//                             <select {...register("priority",{ required: true})} className="select select-bordered w-full">
-//                                     <option disabled selected>Select a Priority ?</option>
-//                                     <option value="Low">Low</option>
-//                                     <option value="Moderate">Moderate</option>
-//                                     <option value="High">High</option>
-//                                 </select>
-//                         </div>
-
-//                         <div className="Form-control w-full my-2 mb-4">
-//                             <label className="form-control w-full">
-//                                 <div className="label">
-//                                     <span className="label-text">Date*</span>
-//                                 </div>
-//                                 <input {...register("date", { required: true})} type="date" placeholder="Title" className="input input-bordered w-full " />
-
-//                             </label>
-//                         </div>
-
-//                     </div>
-//                     <button className="btn btn-block btn-primary" >Submit</button>
-//                 </form>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default NewTasks;

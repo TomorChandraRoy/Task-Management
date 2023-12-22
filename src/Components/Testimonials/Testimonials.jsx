@@ -6,7 +6,7 @@ const Testimonials = () => {
         <div className="container  mt-10 mx-auto md:px-6 ">
             {/* <!-- Section: Design Block --> */}
             <section className="mb-10 text-center">
-                <h2 className="mb-12 text-3xl font-bold">Testimonials</h2>
+                <h2 className="mb-12 mt-5 text-3xl font-bold">Testimonials</h2>
 
                 <div className="grid gap-x-6 md:grid-cols-3 xl:gap-x-12">
                     <div className="mb-6 lg:mb-0">

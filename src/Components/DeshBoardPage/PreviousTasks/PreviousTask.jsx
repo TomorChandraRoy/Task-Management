@@ -14,7 +14,7 @@ const PreviousTask = () => {
   console.log(data)
 
   useEffect(() => {
-    const url = `http://localhost:5000/userTasks?email=${user?.email}`;
+    const url = `https://task-management-server-site-amber.vercel.app/userTasks?email=${user?.email}`;
     fetch(url)
       .then(res => res.json())
       .then(data => {
@@ -34,7 +34,7 @@ const PreviousTask = () => {
       confirmButtonText: "Yes, delete it!"
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/userTasks/${id}`,{
+        fetch(`https://task-management-server-site-amber.vercel.app/userTasks/${id}`,{
               method: 'DELETE'
         })
         .then(res => res.json())
@@ -82,7 +82,7 @@ const PreviousTask = () => {
           <tbody className="text-center">
             {/* row  */}
             {
-              totalTask.length && totalTask.map((item, index) => (
+              totalTask?.length && totalTask.map((item, index) => (
                 <tr key={item._id}>
                   <th>
                     {index + 1}

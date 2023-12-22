@@ -26,7 +26,7 @@ const UpdateTask = () => {
           }
           console.log(taskItem)
         
-          fetch(`http://localhost:5000/usertasks/${_id}`, {
+          fetch(`https://task-management-server-site-amber.vercel.app/usertasks/${_id}`, {
         method: 'PUT',
         headers: {
           'content-type': 'application/json'
