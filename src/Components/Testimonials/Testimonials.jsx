@@ -121,7 +121,7 @@ const Testimonials = () => {
                                     </li>
                                 </ul>
                                 <p>
-                                Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic. 
+                                Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site.
                                 </p>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ const Testimonials = () => {
                                     </li>
                                 </ul>
                                 <p>
-                                A banker is a professional who advises clients on financial concerns and how to better manage their finances. Savings, loans, taxes, investments, and securities are all part of a banker’s responsibilities.
+                                A banker is a professional who advises clients on financial concerns and how to better manage their finances. Savings, loans, taxes, investments.
                                 </p>
                             </div>
                         </div>
